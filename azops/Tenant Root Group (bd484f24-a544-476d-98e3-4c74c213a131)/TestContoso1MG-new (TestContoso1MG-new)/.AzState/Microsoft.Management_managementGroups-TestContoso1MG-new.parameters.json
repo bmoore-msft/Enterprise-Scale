@@ -16,7 +16,33 @@
         "ParentDisplayName": "Tenant Root Group",
         "Children": null,
         "properties": {
-          "policyDefinitions": [],
+          "policyDefinitions": [
+            {
+              "Name": "my-new-policy-def",
+              "ResourceId": "/providers/Microsoft.Management/managementGroups/TestContoso1MG-new/providers/Microsoft.Authorization/policyDefinitions/my-new-policy-def",
+              "ResourceName": "my-new-policy-def",
+              "ResourceType": "Microsoft.Authorization/policyDefinitions",
+              "SubscriptionId": null,
+              "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/TestContoso1MG-new/providers/Microsoft.Authorization/policyDefinitions/my-new-policy-def",
+              "Properties": {
+                "Description": "desc",
+                "DisplayName": "my-new-policy-def",
+                "Mode": "Indexed",
+                "Parameters": null,
+                "PolicyRule": {
+                  "if": {
+                    "not": {
+                      "field": "name",
+                      "like": "test"
+                    }
+                  },
+                  "then": {
+                    "effect": "deny"
+                  }
+                }
+              }
+            }
+          ],
           "policySetDefinitions": [],
           "policyAssignments": [],
           "roleDefinitions": [],
