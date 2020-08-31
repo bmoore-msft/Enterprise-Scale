@@ -114,6 +114,13 @@
             ]
           },
           {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/TestContoso1MG-new",
+            "Name": "TestContoso1MG-new",
+            "DisplayName": "TestContoso1MG-new",
+            "Children": null
+          },
+          {
             "Type": "/subscriptions",
             "Id": "/subscriptions/fab5b8bc-5389-4590-8976-d430163316d8",
             "Name": "fab5b8bc-5389-4590-8976-d430163316d8",

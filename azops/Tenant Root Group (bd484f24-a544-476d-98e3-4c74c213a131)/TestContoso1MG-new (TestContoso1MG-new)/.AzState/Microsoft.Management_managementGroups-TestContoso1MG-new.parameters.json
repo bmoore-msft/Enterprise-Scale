@@ -1,0 +1,41 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/TestContoso1MG-new",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "TestContoso1MG-new",
+        "TenantId": "bd484f24-a544-476d-98e3-4c74c213a131",
+        "DisplayName": "TestContoso1MG-new",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": "/providers/Microsoft.Management/managementGroups/bd484f24-a544-476d-98e3-4c74c213a131",
+        "ParentName": "bd484f24-a544-476d-98e3-4c74c213a131",
+        "ParentDisplayName": "Tenant Root Group",
+        "Children": null,
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": [],
+          "roleAssignments": [
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/TestContoso1MG-new/providers/Microsoft.Authorization/roleAssignments/4fe01a6c-e748-46b9-afa0-895bafe749e0",
+              "Name": "4fe01a6c-e748-46b9-afa0-895bafe749e0",
+              "properties": {
+                "DisplayName": "AzOps",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "d3f5f473-fd13-43c1-b4cd-619043ea24c8",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
