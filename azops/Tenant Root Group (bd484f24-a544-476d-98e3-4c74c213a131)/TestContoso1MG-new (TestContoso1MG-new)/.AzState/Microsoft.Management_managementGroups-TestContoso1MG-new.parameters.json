@@ -46,20 +46,18 @@
           "policySetDefinitions": [],
           "policyAssignments": [],
           "roleDefinitions": [],
-          "roleAssignments": [
-            {
-              "Id": "/providers/Microsoft.Management/managementGroups/TestContoso1MG-new/providers/Microsoft.Authorization/roleAssignments/4fe01a6c-e748-46b9-afa0-895bafe749e0",
-              "Name": "4fe01a6c-e748-46b9-afa0-895bafe749e0",
-              "properties": {
-                "DisplayName": "AzOps",
-                "ObjectType": "ServicePrincipal",
-                "PrincipalId": "d3f5f473-fd13-43c1-b4cd-619043ea24c8",
-                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
-                "RoleDefinitionName": "Owner"
-              },
-              "ResourceType": "Microsoft.Authorization/roleAssignments"
-            }
-          ]
+          "roleAssignments": {
+            "Id": "/providers/Microsoft.Management/managementGroups/TestContoso1MG-new/providers/Microsoft.Authorization/roleAssignments/4fe01a6c-e748-46b9-afa0-895bafe749e0",
+            "Name": "4fe01a6c-e748-46b9-afa0-895bafe749e0",
+            "properties": {
+              "DisplayName": "AzOps",
+              "ObjectType": "ServicePrincipal",
+              "PrincipalId": "d3f5f473-fd13-43c1-b4cd-619043ea24c8",
+              "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+              "RoleDefinitionName": "Owner"
+            },
+            "ResourceType": "Microsoft.Authorization/roleAssignments"
+          }
         }
       }
     }
