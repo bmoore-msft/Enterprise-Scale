@@ -8,12 +8,12 @@
         "Type": "/providers/Microsoft.Management/managementGroups",
         "Name": "bjm-management",
         "TenantId": "bd484f24-a544-476d-98e3-4c74c213a131",
-        "DisplayName": "bjm-management",
+        "DisplayName": "management",
         "UpdatedTime": "0001-01-01T00:00:00Z",
         "UpdatedBy": null,
         "ParentId": "/providers/Microsoft.Management/managementGroups/bjm-platform",
         "ParentName": "bjm-platform",
-        "ParentDisplayName": "bjm-platform",
+        "ParentDisplayName": "platform",
         "Children": [
           {
             "Type": "/subscriptions",
