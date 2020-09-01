@@ -8,12 +8,12 @@
         "Type": "/providers/Microsoft.Management/managementGroups",
         "Name": "bjm-online",
         "TenantId": "bd484f24-a544-476d-98e3-4c74c213a131",
-        "DisplayName": "bjm-online",
+        "DisplayName": "online",
         "UpdatedTime": "0001-01-01T00:00:00Z",
         "UpdatedBy": null,
         "ParentId": "/providers/Microsoft.Management/managementGroups/bjm-landingzones",
         "ParentName": "bjm-landingzones",
-        "ParentDisplayName": "bjm-Landing Zones",
+        "ParentDisplayName": "landing-zones",
         "Children": [
           {
             "Type": "/subscriptions",

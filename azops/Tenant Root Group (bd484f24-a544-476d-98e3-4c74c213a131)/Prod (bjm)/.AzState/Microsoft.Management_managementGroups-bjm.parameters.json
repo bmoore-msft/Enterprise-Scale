@@ -8,7 +8,7 @@
         "Type": "/providers/Microsoft.Management/managementGroups",
         "Name": "bjm",
         "TenantId": "bd484f24-a544-476d-98e3-4c74c213a131",
-        "DisplayName": "bjm",
+        "DisplayName": "Prod",
         "UpdatedTime": "0001-01-01T00:00:00Z",
         "UpdatedBy": null,
         "ParentId": "/providers/Microsoft.Management/managementGroups/bd484f24-a544-476d-98e3-4c74c213a131",
@@ -19,13 +19,13 @@
             "Type": "/providers/Microsoft.Management/managementGroups",
             "Id": "/providers/Microsoft.Management/managementGroups/bjm-landingzones",
             "Name": "bjm-landingzones",
-            "DisplayName": "bjm-Landing Zones",
+            "DisplayName": "landing-zones",
             "Children": [
               {
                 "Type": "/providers/Microsoft.Management/managementGroups",
                 "Id": "/providers/Microsoft.Management/managementGroups/bjm-online",
                 "Name": "bjm-online",
-                "DisplayName": "bjm-online",
+                "DisplayName": "online",
                 "Children": [
                   {
                     "Type": "/subscriptions",
@@ -42,27 +42,27 @@
             "Type": "/providers/Microsoft.Management/managementGroups",
             "Id": "/providers/Microsoft.Management/managementGroups/bjm-sandboxes",
             "Name": "bjm-sandboxes",
-            "DisplayName": "bjm-sandboxes",
+            "DisplayName": "sandboxes",
             "Children": null
           },
           {
             "Type": "/providers/Microsoft.Management/managementGroups",
             "Id": "/providers/Microsoft.Management/managementGroups/bjm-decomissioned",
             "Name": "bjm-decomissioned",
-            "DisplayName": "bjm-decomissioned",
+            "DisplayName": "decomissioned",
             "Children": null
           },
           {
             "Type": "/providers/Microsoft.Management/managementGroups",
             "Id": "/providers/Microsoft.Management/managementGroups/bjm-platform",
             "Name": "bjm-platform",
-            "DisplayName": "bjm-platform",
+            "DisplayName": "platform",
             "Children": [
               {
                 "Type": "/providers/Microsoft.Management/managementGroups",
                 "Id": "/providers/Microsoft.Management/managementGroups/bjm-management",
                 "Name": "bjm-management",
-                "DisplayName": "bjm-management",
+                "DisplayName": "management",
                 "Children": [
                   {
                     "Type": "/subscriptions",

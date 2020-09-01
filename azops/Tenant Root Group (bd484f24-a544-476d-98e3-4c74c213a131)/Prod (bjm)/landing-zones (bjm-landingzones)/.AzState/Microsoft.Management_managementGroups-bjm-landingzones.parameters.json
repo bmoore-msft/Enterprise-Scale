@@ -8,18 +8,18 @@
         "Type": "/providers/Microsoft.Management/managementGroups",
         "Name": "bjm-landingzones",
         "TenantId": "bd484f24-a544-476d-98e3-4c74c213a131",
-        "DisplayName": "bjm-Landing Zones",
+        "DisplayName": "landing-zones",
         "UpdatedTime": "0001-01-01T00:00:00Z",
         "UpdatedBy": null,
         "ParentId": "/providers/Microsoft.Management/managementGroups/bjm",
         "ParentName": "bjm",
-        "ParentDisplayName": "bjm",
+        "ParentDisplayName": "Prod",
         "Children": [
           {
             "Type": "/providers/Microsoft.Management/managementGroups",
             "Id": "/providers/Microsoft.Management/managementGroups/bjm-online",
             "Name": "bjm-online",
-            "DisplayName": "bjm-online",
+            "DisplayName": "online",
             "Children": [
               {
                 "Type": "/subscriptions",
