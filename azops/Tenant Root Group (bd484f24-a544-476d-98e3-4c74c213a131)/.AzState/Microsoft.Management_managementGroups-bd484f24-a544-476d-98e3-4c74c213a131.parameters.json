@@ -39,6 +39,13 @@
                         "Name": "561c147a-8acc-4984-8878-7c13f228917e",
                         "DisplayName": "LZ WVD",
                         "Children": null
+                      },
+                      {
+                        "Type": "/subscriptions",
+                        "Id": "/subscriptions/f83bdaee-6c05-4e73-8819-98c0a5b875a4",
+                        "Name": "f83bdaee-6c05-4e73-8819-98c0a5b875a4",
+                        "DisplayName": "LZ AKS",
+                        "Children": null
                       }
                     ]
                   }
@@ -101,15 +108,7 @@
                 "Id": "/providers/Microsoft.Management/managementGroups/SatyaTestChildMG1",
                 "Name": "SatyaTestChildMG1",
                 "DisplayName": "SatyaTestChildMG1",
-                "Children": [
-                  {
-                    "Type": "/subscriptions",
-                    "Id": "/subscriptions/f83bdaee-6c05-4e73-8819-98c0a5b875a4",
-                    "Name": "f83bdaee-6c05-4e73-8819-98c0a5b875a4",
-                    "DisplayName": "LZ AKS",
-                    "Children": null
-                  }
-                ]
+                "Children": null
               }
             ]
           },

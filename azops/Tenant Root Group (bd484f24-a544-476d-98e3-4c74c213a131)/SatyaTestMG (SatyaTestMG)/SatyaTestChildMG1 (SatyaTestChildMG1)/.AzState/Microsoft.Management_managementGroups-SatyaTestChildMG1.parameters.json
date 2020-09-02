@@ -14,15 +14,7 @@
         "ParentId": "/providers/Microsoft.Management/managementGroups/SatyaTestMG",
         "ParentName": "SatyaTestMG",
         "ParentDisplayName": "SatyaTestMG",
-        "Children": [
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/f83bdaee-6c05-4e73-8819-98c0a5b875a4",
-            "Name": "f83bdaee-6c05-4e73-8819-98c0a5b875a4",
-            "DisplayName": "LZ AKS",
-            "Children": null
-          }
-        ],
+        "Children": null,
         "properties": {
           "policyDefinitions": [],
           "policySetDefinitions": [],
